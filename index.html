@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrolling of the entire page */
+    }
+    .pdf-container {
+        width: 100%;
+        height: 100%;
+        border: none; /* Remove border for iframe */
+    }
+</style>
+</head>
+<body>
+
+<!-- Embedded PDF using Google Docs Viewer -->
+<iframe class="pdf-container" src="https://docs.google.com/viewer?url=http://example.com/form.pdf&embedded=true" frameborder="0"></iframe>
+
+</body>
+</html>
